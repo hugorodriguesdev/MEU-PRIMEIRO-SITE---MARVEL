@@ -1,0 +1,119 @@
+h1{
+    color: rgba(255, 0, 0, 0.63);
+    text-align: left;
+    font-weight: 300;
+    background-color: rgba(255, 0, 0, 0.144);
+    width: 50%;
+    border-radius: 5px;
+    
+}
+
+h2{
+    color: rgba(255, 0, 0, 0.63);
+    font-weight: 200;
+    text-align: left;
+    background-color: rgba(255, 0, 0, 0.144);
+    width: 75%;
+    border-radius: 5px;
+}
+
+body img{
+    height: 150px;
+    width: 400px; 
+}
+
+
+main{
+    color: azure;
+    padding-top: 150px;
+}
+
+.vingadores{
+    color: rgb(114, 114, 114);
+    padding: 100px 0px;
+    letter-spacing: 3px;
+}
+
+.vingadores img{
+    height: 500px;
+    width: 400px;
+    padding-left: 7px;
+   border-radius: 10px;
+    border-color: black;
+}
+
+.vingadores section{
+text-align: left;
+padding-right: 600px;
+}
+
+h3{
+    color: rgb(151, 0, 0);
+}
+
+h2 p{
+    color: antiquewhite;
+}
+
+
+
+.final{
+    padding-top: 30px;
+    
+}
+
+.main{
+    padding-top: 30px;
+}
+
+.finali img{
+    height: 70px;
+    width: 170px;
+    padding: 0px 134px;
+    justify-content: center;
+}
+
+.final h4{
+    text-align: left;
+    color: antiquewhite;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.144);
+    border-radius: 5px;
+    
+}
+
+footer a{
+    text-align: center;
+    justify-content: center;
+    color: antiquewhite;
+    margin: 20px;
+}
+
+footer img{
+    height: 80px;
+    width: 80px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+   
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 12px;
+    }
+    .header{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body {
+        font-size: 14px;
+    }
+    .header{
+        padding: 15px;
+    }
+}
